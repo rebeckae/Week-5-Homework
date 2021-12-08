@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../coffeeLanding/img/img1.jpeg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
+
+}
+
+.intro-image_link a {
+text-decoration: none;
+display: inline-block;
+font-size: 3rem;
+text-transform: uppercase;
+background-color: #66766c7e;
+padding: 2rem;
+color: #c0b9a2;
+border: 2px solid #66766c7e;
+transition: all 1s ease-in-out;
+}
+
+.intro-image_link a:hover {
+transform: scale(1.2);    
+}
+
+.intro-text {
+    height: 300px;
+    background-color: #63513d;
+    color: #c1b9a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+
+}
+
+.intro-text_textbox h3 {
+font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+
+}
+
+.quality-image {
+    height: 500px;
+    background-image: url('../coffeeLanding/img/img3.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image_link a { 
+text-decoration: none;
+display: inline-block;
+font-size: 3rem;
+text-transform: uppercase;
+background-color: #502d217e;
+padding: 2rem;
+color: #ebcfac;
+border: 2px solid #502d219f;
+transition: all 1s ease-in-out;
+}
+
+.quality-image_link a:hover { 
+  transform: scale(1.2);
+  }
+
+  .quality-text {
+    height: 250px;
+    background-color:#5e4138;
+    color:#ebcfac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem; 
+  }
+
+  .quality-text_textbox h3 {
+      font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+  }
+
+  .footer {
+      height: 250px;
+      background-color: #353032;
+      color: #9e918d;
+      padding-top: 2rem;
+      font-size: 2rem;
+      }
+
+      .footer ul li {
+          display: inline-block;
+          margin: 1rem;
+      }
+      
+      .footer ul li a {
+          color: #9e918d;
+          text-decoration: none;
+      }
+
+      .footer ul li:hover {
+          color:#94918d;
+        transform: scale(1.2);
+      } 
+
+      .origin-image {
+        height: 700px;
+        background-image: url('../coffeeLanding/img/img2.jpg');
+        background-size: cover;
+        background-position: bottom;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .origin-image_link a { 
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3rem;
+        text-transform: uppercase;
+        background-color: #a6a79f77;
+        padding: 2rem;
+        color:#303231;     
+        border: 2px solid #a6a79f8c;
+        transition: all 1s ease-in-out;
+        }
+
+        .origin-image_link a:hover { 
+            transform: scale(1.2);
+            }
+
+            .origin-text {
+                height: 250px;
+                background-color:#a59e9b;
+                color:#403c3b;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 15rem; 
+              }
+            
+              .origin-text_textbox h3 {
+                  font-size: 2rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+              }

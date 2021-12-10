@@ -12,7 +12,7 @@ body {
 
 .intro-image {
     background-attachment: fixed;
-    background-image: url('../coffeeLanding/img/img1.jpeg');
+    background-image: url('img/img1.jpeg');
     height: 600px;
     background-size: cover;
     display: flex;
@@ -58,7 +58,7 @@ margin-bottom: 1rem;
 
 .quality-image {
     height: 500px;
-    background-image: url('../coffeeLanding/img/img3.jpeg');
+    background-image: url('img/img3.jpeg');
     background-size: cover;
     background-position: bottom;
     display: flex;
@@ -123,7 +123,7 @@ margin-bottom: 1rem;
 
       .origin-image {
         height: 700px;
-        background-image: url('../coffeeLanding/img/img2.jpg');
+        background-image: url('img/img2.jpg');
         background-size: cover;
         background-position: bottom;
         display: flex;
